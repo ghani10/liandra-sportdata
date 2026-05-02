@@ -19,10 +19,10 @@
           </label>
 
           <!-- Tombol Refresh Manual -->
-          <button @click="refreshData" class="action-btn refresh-btn" :disabled="isBackgroundLoading">
+          <!-- <button @click="refreshData" class="action-btn refresh-btn" :disabled="isBackgroundLoading">
             <span class="icon" :class="{ 'spin': isBackgroundLoading }">🔄</span>
             <span class="btn-text">Refresh</span>
-          </button>
+          </button> -->
 
           <!-- Tombol Kembali -->
           <button 
